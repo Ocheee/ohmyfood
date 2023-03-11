@@ -92,6 +92,54 @@ body {
   box-shadow: 0 0px 30px rgb(165, 39, 255);
 }
 
+#how-it-works {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #f1f1f188;
+  box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.281);
+  margin-left: 10px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.button i {
+  margin: 20px;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 10px;
+  background-color: #9356dc;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 20px;
+}
+
 /* TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT   */
 @media screen and (min-width: 769px) and (max-width: 992px) {
 }
