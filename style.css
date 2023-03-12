@@ -13,13 +13,15 @@ body {
 }
 
 /* HEADER */
-
+/* section */
 .nav-links {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   align-items: center;
 }
+
+/* banner */
 #logo {
   width: 100%;
   height: 60px;
@@ -79,6 +81,7 @@ body {
   margin: 30px 10px;
 }
 
+/* Explore button */
 #button {
   background-image: linear-gradient(#ff79da, #9356dc);
   opacity: 1;
@@ -90,6 +93,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+/* Explore button animation */
 #button:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 0px 30px rgb(181, 77, 255);
@@ -97,7 +101,7 @@ body {
 }
 
 /* HOW IT WORKS */
-
+/* section */
 #how-it-works {
   display: flex;
   height: 300px;
@@ -109,9 +113,10 @@ body {
 .title {
   font-size: 28px;
   font-weight: 700;
-  margin: 10px 10px;
+  margin: 30px 10px 0 0;
 }
 
+/* buttons */
 .button {
   display: flex;
   align-items: center;
@@ -147,7 +152,7 @@ body {
 }
 
 /* RESTAURANTS */
-
+/* section */
 #restaurants {
   display: flex;
   height: 1200px;
@@ -156,7 +161,7 @@ body {
   background-color: #f1f1f188;
   margin: 20px;
 }
-
+/* cards */
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +177,7 @@ body {
 .card img {
   object-fit: cover;
   width: 100%;
-  height: 75%;
+  height: 70%;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -183,6 +188,33 @@ body {
 
 .card-text {
   padding: 0 15px;
+}
+
+/* FOOTER */
+footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+  padding: 30px;
+  background-color: rgb(68, 67, 67);
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-family: "Shrikhand", cursive;
+  margin-bottom: 10px;
+}
+
+.fa-utensils,
+.fa-handshake-angle {
+  width: 25px;
 }
 
 /* TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT   */
