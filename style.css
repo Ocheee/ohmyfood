@@ -12,6 +12,8 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER */
+
 .nav-links {
   display: flex;
   flex-direction: column;
@@ -79,6 +81,7 @@ body {
 
 #button {
   background-image: linear-gradient(#ff79da, #9356dc);
+  opacity: 1;
   color: white;
   width: max-content;
   padding: 10px 20px;
@@ -89,15 +92,18 @@ body {
 
 #button:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 0px 30px rgb(165, 39, 255);
+  box-shadow: 0 0px 30px rgb(181, 77, 255);
+  opacity: 0.6;
 }
+
+/* HOW IT WORKS */
 
 #how-it-works {
   display: flex;
   height: 300px;
   flex-direction: column;
   justify-content: space-between;
-  margin: 10px;
+  margin: 10px 10px 30px 10px;
 }
 
 .title {
@@ -138,6 +144,45 @@ body {
   width: 22px;
   height: 22px;
   border-radius: 20px;
+}
+
+/* RESTAURANTS */
+
+#restaurants {
+  display: flex;
+  height: 1200px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f1f188;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 75%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card i {
+  font-size: 28px;
+  padding: 0 20px;
+}
+
+.card-text {
+  padding: 0 15px;
 }
 
 /* TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT      TABLET LAYOUT   */
