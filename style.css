@@ -394,7 +394,7 @@ footer a {
   flex-direction: column;
 
   height: auto;
-  background-color: #dbdbdb;
+  background-color: #f1f1f1;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   z-index: 2;
@@ -442,8 +442,6 @@ footer a {
   box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.219);
   animation: fade-in 0.5s ease-out forwards;
   overflow: hidden;
-  /* white-space: nowrap;
-  text-overflow: ellipsis; */
 }
 
 .top {
@@ -452,15 +450,17 @@ footer a {
 .mid {
   animation-delay: 1.2s;
 }
-
 .bot {
   animation-delay: 1.3s;
+}
+.extra {
+  animation-delay: 1.4s;
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 
   100% {
